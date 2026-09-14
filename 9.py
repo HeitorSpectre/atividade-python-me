@@ -1,10 +1,7 @@
-int(input("Digite o primeiro livro: "))
-int(input("Digite o segundo livro: "))
-int(input("Digite o terceiro livro: "))
+livro1 = input("Digite o primeiro livro: ")
+livro2 = input("Digite o segundo livro: ")
+livro3 = input("Digite o terceiro livro: ")
 
-lista = []
-lista.append(1)
-lista.append(2)
-lista.append(3)
+lista = [livro1, livro2, livro3]
 
 print(lista)

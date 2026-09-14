@@ -1,5 +1,5 @@
-compra = int(input("Digite o valor do compra: "))
+compra = float(input("Digite o valor da compra: "))
 if compra >= 500:
-    print("Tem direito tem direito ao beneficio")
+    print("Tem direito ao benefício")
 else:
-    print("Não tem direito em beneficio")
+    print("Não tem direito ao benefício")

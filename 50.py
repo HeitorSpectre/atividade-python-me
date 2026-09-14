@@ -6,8 +6,8 @@ for i in range(5):
     alunos[nome] = nota
 
 media = sum(alunos.values()) / len(alunos)
-print("Média da turma: ", media)
+print("Média da turma:", media)
 
 for nome, nota in alunos.items():
-    if nota > 7:
-        print("Aprovado")
+    if nota >= 7:
+        print(nome, "- Aprovado")
